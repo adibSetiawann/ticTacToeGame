@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open-sans", sans-serif;
+  color: rgb(44, 41, 44);
+}
+
+#main-header {
+  color: rgb(207, 226, 243);
+  background-color: rgb(31, 80, 226);
+  padding: 2rem 5%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.btn {
+  color: rgb(207, 226, 243);
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(31, 80, 226);
+  border: 1px solid rgb(31, 80, 226);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.7rem;
+}
+
+.btn-alt {
+  margin-top: 0.7rem;
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(31, 80, 226);
+}
+
+.btn:hover {
+  background-color: rgb(2, 46, 180);
+  border-color: rgb(2, 46, 180);
+}
+
+.btn-alt:hover {
+  background-color: rgb(145, 167, 231);
+  border-color: transparent;
+}
